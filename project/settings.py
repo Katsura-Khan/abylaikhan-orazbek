@@ -1,4 +1,4 @@
-import django_heroku
+
 from pathlib import Path
 from django.contrib.messages import constants as messages
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -128,5 +128,3 @@ MESSAGE_TAGS={
 }
 
 
-# Activate Django-Heroku.
-django_heroku.settings(locals())
